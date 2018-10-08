@@ -25,13 +25,13 @@ int main()
                         list.push_back(num1);
                 }
         } while (input != 'Q' && input != 'q');
-        cout<<"==ITEMS TO BUY=="<<endl;
         if(list.size()==0)
         {
                 cout<<"No items to buy!"<<endl;
         }
         else
         {
+                cout<<"==ITEMS TO BUY=="<<endl;
                 for(int index = 0; index < list.size(); index++)
                 {
                         cout<<index+1<<" "<<list[index]<<endl;
